@@ -11,7 +11,6 @@
 		2444960726BA2FC000F40805 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2444960626BA2FC000F40805 /* ContentView.swift */; };
 		2444960926BA2FC100F40805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2444960826BA2FC100F40805 /* Assets.xcassets */; };
 		2444960C26BA2FC100F40805 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2444960B26BA2FC100F40805 /* Preview Assets.xcassets */; };
-		2444960E26BA2FC100F40805 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2444960D26BA2FC100F40805 /* Persistence.swift */; };
 		2444961126BA2FC100F40805 /* Bookworm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2444960F26BA2FC100F40805 /* Bookworm.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
@@ -21,7 +20,6 @@
 		2444960626BA2FC000F40805 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2444960826BA2FC100F40805 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2444960B26BA2FC100F40805 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2444960D26BA2FC100F40805 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		2444961026BA2FC100F40805 /* Bookworm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookworm.xcdatamodel; sourceTree = "<group>"; };
 		2444961226BA2FC100F40805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,7 +57,6 @@
 				2444960426BA2FC000F40805 /* BookwormApp.swift */,
 				2444960626BA2FC000F40805 /* ContentView.swift */,
 				2444960826BA2FC100F40805 /* Assets.xcassets */,
-				2444960D26BA2FC100F40805 /* Persistence.swift */,
 				2444961226BA2FC100F40805 /* Info.plist */,
 				2444960F26BA2FC100F40805 /* Bookworm.xcdatamodeld */,
 				2444960A26BA2FC100F40805 /* Preview Content */,
@@ -144,7 +141,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2444960E26BA2FC100F40805 /* Persistence.swift in Sources */,
 				2444961126BA2FC100F40805 /* Bookworm.xcdatamodeld in Sources */,
 				2444960726BA2FC000F40805 /* ContentView.swift in Sources */,
 				2444960526BA2FC000F40805 /* BookwormApp.swift in Sources */,
