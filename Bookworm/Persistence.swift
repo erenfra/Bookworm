@@ -6,7 +6,7 @@
 //
 
 import CoreData
-public class PersistentCloudKitContainer {
+public class PersistentContainer {
         // MARK: - Define Constants / Variables
         public static var context: NSManagedObjectContext {
                 return persistentContainer.viewContext

@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct BookwormApp: App {
-    let context = PersistentCloudKitContainer.persistentContainer.viewContext
+    let context = PersistentContainer.persistentContainer.viewContext
     var body: some Scene {
         WindowGroup {
             ContentView().environment(\.managedObjectContext, context)
